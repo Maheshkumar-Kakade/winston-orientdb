@@ -1,0 +1,36 @@
+{
+  "name": "winston-orientdb",
+  "version": "0.0.1",
+  "description": "An OrientDB transport for Winston",
+  "main": "lib/orientdbTransport.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Maheshkumar-Kakade/winston-orientdb.git"
+  },
+  "keywords": [
+    "logging",
+    "winston",
+    "orientdb",
+    "log",
+    "logger",
+    "tools"
+  ],
+  "author": "Maheshkumar Kakade <maheshkumarkakade@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "email": "maheshkumarkakade@gmail.com",
+    "url": "https://github.com/Maheshkumar-Kakade/winston-orientdb/issues"
+  },
+  "homepage": "https://github.com/Maheshkumar-Kakade/winston-orientdb",
+  "dependencies": {
+    "orientjs": "^2.1.0",
+    "winston": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.0"
+  }
+}
